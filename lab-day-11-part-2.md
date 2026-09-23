@@ -4,16 +4,16 @@ show ip int brief
 show ip route
 ```
 
-Interfaces are set up correctly.
+Interfaces are set up correctly.  
 Static route to 192.168.3.0/24 has a faulty next hop.
 
-Fix:
+#### Fix:
 ```
 no ip route 192.168.3.0 255.255.255.0 192.168.12.3
 ip route 192.168.3.0 255.255.255.0 192.168.12.2
 ```
 
-Verify:
+#### Verify:
 ```
 show ip route
 ```
