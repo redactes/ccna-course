@@ -22,9 +22,9 @@ Each lab has its own Markdown file containing the commands, configuration steps,
 ```text
 .
 ├── README.md
-├── lab-01.md
-├── lab-02.md
-├── lab-03.md
+├── lab-day-01.md
+├── lab-day-02.md
+├── lab-day-03.md
 └── ...
 ```
 
