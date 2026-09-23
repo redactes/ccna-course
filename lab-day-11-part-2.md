@@ -1,6 +1,6 @@
 # Find the misconfigurations on each routers
 
-### R1
+## R1
 ```
 show ip int brief
 show ip route
@@ -20,7 +20,7 @@ ip route 192.168.3.0 255.255.255.0 192.168.12.2
 show ip route
 ```
 
-### R2
+## R2
 ```
 show ip int brief
 show ip route
@@ -39,7 +39,7 @@ ip route 192.168.3.0 255.255.255.0 G0/1
 show ip route
 ```
 
-### R3
+## R3
 ```
 show ip int brief
 show ip route
